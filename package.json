@@ -1,0 +1,15 @@
+{
+  "name": "testbutton",
+  "version": "1.0.0",
+  "description": "Awesome not so awesome app",
+  "main": "main.js",
+  "scripts": {
+    "start" : "node main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
