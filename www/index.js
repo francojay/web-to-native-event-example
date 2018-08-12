@@ -4,7 +4,11 @@
     var buttonTest = document.getElementById('buttonTest');
 
     buttonTest.onclick = function() {
-        alert("Fuck you native")
+        sendSelectedValue("THis is a test for printing")
+    }
+
+    function sendSelectedValue(config){
+        oWebViewInterface.emit('buttonPrint', config);
     }
 
     function init(){
